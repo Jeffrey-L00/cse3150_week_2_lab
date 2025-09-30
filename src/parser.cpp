@@ -15,5 +15,5 @@ std::string StringUtils::getUsername(const std::string& email) {
 	if (pos != std::string::npos) {
 		return email.substr(0, pos);
 	}
-	return 0;
+
 }

@@ -23,8 +23,8 @@ int main() {
 	cout << "Last Name:" << *lastName << endl; 
 	cout << "Username:" << userName << endl;
 	
-	delete[] firstName;
-	delete[] lastName;
+	delete firstName;
+	delete lastName;
 	return 0;
 }	
 
